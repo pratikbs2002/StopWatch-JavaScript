@@ -8,9 +8,6 @@ var StartButton = document.getElementById("button-start");
 var StopButton = document.getElementById("button-stop");
 var RestartButton = document.getElementById("button-restart");
 var interval;
-
-// console.log(StartButton);
-
 StartButton.onclick = function click() {
   clearInterval(interval);
   interval = setInterval(startTimer);
