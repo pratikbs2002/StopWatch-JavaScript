@@ -10,7 +10,7 @@ var RestartButton = document.getElementById("button-restart");
 var interval;
 StartButton.onclick = function click() {
   clearInterval(interval);
-  interval = setInterval(startTimer);
+  interval = setInterval(startTimer, 10);
 };
 StopButton.onclick = function () {
   clearInterval(interval);
